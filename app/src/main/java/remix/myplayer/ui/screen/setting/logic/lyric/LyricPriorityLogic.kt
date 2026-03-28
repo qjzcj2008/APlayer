@@ -87,7 +87,7 @@ fun LyricPriorityLogic() {
                 .height(48.dp),
               contentAlignment = Alignment.CenterStart
             ) {
-              Text(
+              TextPrimary(
                 text = stringResource(lyricOrder.stringRes),
                 fontSize = 16.sp,
                 textAlign = TextAlign.Center
