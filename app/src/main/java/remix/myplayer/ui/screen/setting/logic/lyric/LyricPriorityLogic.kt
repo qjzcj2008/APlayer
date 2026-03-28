@@ -91,7 +91,6 @@ fun LyricPriorityLogic() {
                 text = stringResource(lyricOrder.stringRes),
                 fontSize = 16.sp,
                 textAlign = TextAlign.Center
-                maxLine = Int.MAX_VALUE
               )
               Icon(
                 painter = painterResource(R.drawable.ic_drag_handle_24dp),
